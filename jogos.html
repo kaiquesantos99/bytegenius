@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/> <!-- Reconhecer caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport vai compreender o tamanho da tela do site, se é PC ou mobile. -->
+    <title>ByteGenius - Jogos</title>
+    <link rel="stylesheet" type="text/css" href="css/jogos.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="javascript/sobre.js"></script>
+    <link rel="shortcut icon" href="imagens/bytegenius-logo.png" type="image/x-icon"> <!-- Code do Allan -->
+    <script src="javascript/utils.js"></script>
+    <script src="//code.jivosite.com/widget/OwTEXVzHeA" async></script> <!-- Jivochat -->
+</head>
+<body>
+    <!-- CABEÇALHO DO SITE -->
+        <header>
+            <!-- Logotipo -->
+            <div class="logo">
+                <a href="index.html" class="bytelink"><img src="imagens/bytegenius-logo.png" alt="Logotipo ByteGenius">ByteGenius</a>
+            </div>
+            
+            <!-- Barra de Navegação -->
+            <nav class="navbar" id="navbar">
+                
+                <!-- Menu responsivo - Allan -->
+                <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+                    &#9776;
+                </a>
+                
+                <!-- Botões do Menu -->
+                <ul class="navbar-links" id="navbar-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li class="dropdown">
+                        <a href="#desenvolvimentos">Desenvolvimentos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="aplicativos.html">Aplicativos</a></li>
+                            <li><a href="jogos.html">Jogos</a></li>
+                            <li><a href="websites.html">Websites</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+
+    <!-- Adicione o menu lateral -->
+    <div class="sidenav" id="sidenav">
+        <a href="javascript:void(0);" class="closebtn" onclick="closeNav()">&times;</a> <!-- Ícone de fechar -->
+        <a href="index.html">Home</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="aplicativos.html">Aplicativos</a>
+        <a href="jogos.html">Jogos</a>
+        <a href="websites.html">Websites</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contatos.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+    </div>
+    
+    
+    <h1>Desenvolvimento de Jogos</h1>
+
+    <section class="web-section">
+        <div class="left-content">
+            <h2>ByteGenius no mundo dos games</h2>
+            <p>Transformando sua visão em diversão interativa! Na ByteGenius, entendemos que cada ideia de jogo é única e merece ser tratada com cuidado e dedicação para alcançar seu potencial máximo. Ao escolher nossos serviços de desenvolvimento de jogos, você está optando por uma parceria que prioriza a excelência criativa, a qualidade técnica e a satisfação do cliente.</p>
+
+            <h2>Colaboração Criativa:</h2>
+            <p>Nossa equipe de desenvolvimento de jogos está pronta para colaborar estreitamente com você desde o conceito inicial até a implementação final. Valorizamos suas ideias e visões, transformando-as em realidade através de um processo de desenvolvimento iterativo. Quer você tenha uma ideia totalmente formada ou apenas um esboço inicial, estamos aqui para ajudar a expandi-la e refiná-la.</p>
+
+            <h2>Qualidade e Inovação Técnica:</h2>
+            <p>Na ByteGenius, nos comprometemos com os mais altos padrões de qualidade e inovação técnica. Utilizamos as mais recentes tecnologias e práticas de desenvolvimento para garantir que seu jogo seja visualmente impressionante, funcionalmente sólido e otimizado para oferecer uma experiência de jogo excepcional.</p>
+        </div>
+
+        <div class="right-content">
+            <img src="imagens/jogos.png" class="websites-image" alt="Imagem de Jogos">
+        </div>
+
+        <div class="bottom-content">
+            <h2>Personalização e Flexibilidade:</h2>
+            <p>Entendemos que cada projeto de jogo tem requisitos únicos. É por isso que oferecemos soluções de desenvolvimento personalizadas e flexíveis para atender às suas necessidades específicas. Seja um jogo para dispositivos móveis, consoles ou PC, estamos preparados para criar uma experiência envolvente e cativante que atenda aos seus objetivos e orçamento.</p>
+            
+            <h2>Suporte Contínuo:</h2>
+            <p>Nossa parceria não termina com o lançamento do jogo. Estamos comprometidos em fornecer suporte contínuo após o lançamento, seja para atualizações, correções de bugs ou para ajudá-lo a aproveitar ao máximo seu jogo no mercado. Sua satisfação e sucesso são nossa prioridade número um.</p>
+            
+            <h2>Pronto para Levar sua Ideia de Jogo ao Próximo Nível?</h2>
+            <p>Se você está pronto para transformar sua visão de jogo em realidade, a ByteGenius está aqui para ajudar. Entre em contato conosco hoje mesmo para agendar uma consulta e dar o primeiro passo rumo a um jogo de sucesso que irá encantar e cativar os jogadores em todo o mundo. Na ByteGenius, estamos ansiosos para fazer parte da jornada emocionante de desenvolvimento do seu jogo e ajudá-lo a alcançar o sucesso que você merece.</p>
+        </div>
+    </section>
+
+    
+        <!-- RODAPÉ DO SITE -->
+        
+        <footer>
+            
+            <!-- Wave Rodapé -->
+            <div class="container-wave-footer">
+                <svg class="wave-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L26.7,202.7C53.3,213,107,235,160,234.7C213.3,235,267,213,320,218.7C373.3,224,427,256,480,240C533.3,224,587,160,640,165.3C693.3,171,747,245,800,277.3C853.3,309,907,299,960,298.7C1013.3,299,1067,309,1120,277.3C1173.3,245,1227,171,1280,154.7C1333.3,139,1387,181,1413,202.7L1440,224L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+            </div>
+            
+            
+            <div class="footer-content">
+                
+                <!-- Sobre nós -->
+                <div class="footer-section">
+                    <h3>Sobre Nós</h3>
+                    <p>ByteGenius é uma empresa de tecnologia da informação especializada em desenvolvimento de websites, softwares e jogos eletrônicos, buscando sempre a melhor solução para nossos clientes.</p>
+                    
+                </div>
+                
+                <!-- Links -->
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="clientes.html">Clientes</a></li>
+                        
+                        <li><a href="#">Desenvolvimentos</a></li>
+                        
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contatos.html">Contato</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        
+                        
+                    </ul>
+                </div>
+                
+                <!-- Contato -->
+                <div class="footer-section">
+                    <h3>Contate-nos</h3>
+                    <p>Email: allan.victorpf@uni9.edu.br</p>
+                    <p>Telefone: (11) 9 6392-5250</p>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 ByteGenius. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+</body>
+</html>

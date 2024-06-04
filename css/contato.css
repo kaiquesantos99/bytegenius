@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 60px auto 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.container h2 {
+    font-family: Tahoma;
+    font-size: 24pt;
+}
+
+.location-container, .form-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.location-container {
+    flex: 1;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: #00A7E2;
+    color: #fff;
+}
+
+.location-container h2 {
+    padding-bottom: 10px;
+}
+
+.form-container {
+    flex: 2;
+    border-radius: 20px;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form h2 {
+    padding-bottom: 20px;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px;
+    background-color: #FF4500;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 14pt;
+}
+
+form button:hover {
+    background-color: #FF7F50;
+}
+
+.location-container p {
+    line-height: 1.6;
+}
+
+
+

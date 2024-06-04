@@ -1,0 +1,177 @@
+<!DOCTYPE html> <!-- Dizer pro navegador que esse arquivo é um documento html -->
+<html lang="pt-br">
+    <head> <!-- Configurações do site -->
+        <!-- OUTRAS CONFIGURAÇÕES -->
+        <meta charset="UTF-8"/> <!-- Reconhecer caracteres especiais -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Compreender tamanho da tela -->
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="css/sobre.css"/> <!-- CSS - Estilo dessa página -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/> <!-- CSS - Estilo de Cabeçalho e Rodapé -->
+        <link rel="shortcut icon" href="imagens/bytegenius-logo.png" type="image/x-icon"> <!-- CSS - Logo Title -->
+        
+        <!-- JAVASCRIPT -->
+        <script src="javascript/utils.js"></script> <!-- JS - Botão fantasma -->
+        <script src="//code.jivosite.com/widget/OwTEXVzHeA" async></script> <!-- JS - Chatbot -->
+        <title>ByteGenius - Sobre Nós</title>
+    </head>
+    <body> <!-- Corpo do Site -->
+        
+        
+        <!-- ===================   ==================== ======= C A B E Ç A L H O =============== =============== ============ ===-->
+        <header>
+            
+            
+            <!-- Logotipo -->
+            <div class="logo">
+                <a href="index.html" class="bytelink"><img src="imagens/bytegenius-logo.png" alt="Logotipo ByteGenius">ByteGenius</a>
+            </div>
+            <!-- Fim Logotipo -->
+            
+            <!-- Barra de Navegação -->
+            <nav class="navbar" id="navbar">
+                
+                <!-- Botão responsivo -->
+                <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+                    &#9776;
+                </a>
+                <!-- Fim botão responsivo -->
+                
+                <!-- Botões do Menu -->
+                <ul class="navbar-links" id="navbar-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li class="dropdown">
+                        <a href="#desenvolvimentos">Desenvolvimentos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="aplicativos.html">Aplicativos</a></li>
+                            <li><a href="jogos.html">Jogos</a></li>
+                            <li><a href="websites.html">Websites</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+                <!-- Fim Botões de Menu -->
+                
+            </nav>
+            <!-- Fim Barra de Navegação -->
+        </header>
+        
+        <!-- Menu lateral responsivo (OCULTO) -->
+        <div class="sidenav" id="sidenav">
+            <a href="javascript:void(0);" class="closebtn" onclick="closeNav()">&times;</a> <!-- Ícone de fechar -->
+            <a href="index.html">Home</a>
+            <a href="clientes.html">Clientes</a>
+            <a href="aplicativos.html">Aplicativos</a>
+            <a href="jogos.html">Jogos</a>
+            <a href="websites.html">Websites</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="contatos.html">Contato</a>
+            <a href="sobre.html">Sobre</a>
+        </div>
+        <!-- Fim Menu lateral responsivo (OCULTO) -->
+        
+        <!-- ===================   ==================== ======= F I M   C A B E Ç A L H O =============== =============== ============ ===-->
+        
+        
+        
+        
+        <!-- ===================   ==================== ======= C O N T E U D O =============== =============== ============ ===-->
+        
+        <div id="info-display">Equipe ByteGenius</div>
+
+            <div class="circle-container">
+                <img class="circle" data-name="Allan" src="imagens/equipe/equipe-circulos/allan.png">
+                <img class="circle" data-name="Ana Carolina" src="imagens/equipe/equipe-circulos/carol.png">
+                <img class="circle" data-name="Denzel" src="imagens/equipe/equipe-circulos/anonymous.png">
+                <img class="circle" data-name="Enzo" src="imagens/equipe/equipe-circulos/enzo.png">
+                <img class="circle" data-name="Felipe" src="imagens/equipe/equipe-circulos/anonymous.png">
+                <img class="circle" data-name="Gabriel" src="imagens/equipe/equipe-circulos/gabriel.png">
+                <img class="circle" data-name="Kaique" src="imagens/equipe/equipe-circulos/kaique.png">
+                <img class="circle" data-name="Jefferson" src="imagens/equipe/equipe-circulos/jefferson.png">
+                <img class="circle" data-name="Lucas" src="imagens/equipe/equipe-circulos/lucas.png">
+                <img class="circle" data-name="Osvaldo" src="imagens/equipe/equipe-circulos/osvaldo.png">
+                <img class="circle" data-name="Renan" src="imagens/equipe/equipe-circulos/renan.png">
+                <img class="circle" data-name="Vanessa" src="imagens/equipe/equipe-circulos/vanessa.png">
+                <img class="circle" data-name="Vinicius" src="imagens/equipe/equipe-circulos/vinicius.png">
+                
+                <div class="container-wave-top">
+                    <svg class="wave-top" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L26.7,202.7C53.3,213,107,235,160,234.7C213.3,235,267,213,320,218.7C373.3,224,427,256,480,240C533.3,224,587,160,640,165.3C693.3,171,747,245,800,277.3C853.3,309,907,299,960,298.7C1013.3,299,1067,309,1120,277.3C1173.3,245,1227,171,1280,154.7C1333.3,139,1387,181,1413,202.7L1440,224L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+                </div>
+            </div>
+        
+        
+        
+        <section class="section-container">
+            <div class="left-content">
+                <h1>Mais sobre nós</h1>
+                <h2>Pronto para Levar sua Presença Online ao Próximo Nível?</h2>
+                <p>Se você está pronto para elevar sua presença online e alcançar novos patamares de sucesso, a ByteGenius está aqui para ajudar. Entre em contato conosco hoje mesmo para agendar uma consulta e dar o primeiro passo rumo ao desenvolvimento de um projeto incrível que impressionará seus visitantes e impulsionará o crescimento do seu negócio.</p>
+                
+                <p>Na ByteGenius, estamos ansiosos para fazer parte da jornada emocionante de desenvolvimento do seu app, site e/ou jogo, e ajudá-lo a alcançar o sucesso que você merece.</p>
+            </div>
+            <div class="right-content">
+                
+                
+                <p>Nossa equipe é composta por especialistas dedicados e apaixonados pelo que fazem. Nós nos esforçamos para entregar soluções de alta qualidade que não apenas atendam, mas superem as expectativas de nossos clientes.</p>
+                
+                <p>Com anos de experiência no setor, a ByteGenius se orgulha de um portfólio diversificado e de clientes satisfeitos. Continuamos a inovar e a adaptar nossas abordagens para garantir que nossos serviços estejam sempre à frente das tendências do mercado.</p>
+            </div>
+        </section>
+        <!-- ===================   ==================== ======= F I M   C O N T E U D O =============== =============== ============ ===-->
+        
+        
+        
+        <!-- ===================   ==================== ======= R O D A P É =============== =============== ============ === -->
+        
+        <footer>
+            
+            <!-- Wave Rodapé -->
+            <div class="container-wave-footer">
+                <svg class="wave-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L26.7,202.7C53.3,213,107,235,160,234.7C213.3,235,267,213,320,218.7C373.3,224,427,256,480,240C533.3,224,587,160,640,165.3C693.3,171,747,245,800,277.3C853.3,309,907,299,960,298.7C1013.3,299,1067,309,1120,277.3C1173.3,245,1227,171,1280,154.7C1333.3,139,1387,181,1413,202.7L1440,224L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+            </div>
+            <!-- Fim Wave Rodapé -->
+            
+            <div class="footer-content">
+                
+                <!-- DIV LEFT Sobre nós -->
+                <div class="footer-section">
+                    <h3>Sobre Nós</h3>
+                    <p>ByteGenius é uma empresa de tecnologia da informação especializada em desenvolvimento de websites, softwares e jogos eletrônicos, buscando sempre a melhor solução para nossos clientes.</p>
+                    
+                </div>
+                
+                <!-- DIV CENTER Links -->
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="clientes.html">Clientes</a></li>
+                        <li><a href="#">Desenvolvimentos</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contatos.html">Contato</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
+                
+                <!-- DIV RIGHT Contato -->
+                <div class="footer-section">
+                    <h3>Contate-nos</h3>
+                    <p>Email: allan.victorpf@uni9.edu.br</p>
+                    <p>Telefone: (11) 9 6392-5250</p>
+                </div>
+            </div>
+            
+            <!-- DIV BOTTOM Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 ByteGenius. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+        
+        <!-- ===================   ==================== ======= F I M    R O D A P É =============== =============== ============ === -->
+        
+        <script src="javascript/sobre.js"></script> <!-- JS - Nome dos Integrantes -->
+    </body>
+</html>

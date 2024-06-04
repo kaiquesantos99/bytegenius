@@ -1,0 +1,142 @@
+<!DOCTYPE html> <!-- Dizer pro navegador que esse arquivo é um documento html -->
+<html lang="pt-br">
+    <head> <!-- Conexões com CSS e Javascript -->
+        <meta charset="UTF-8"/> <!-- Reconhecer caracteres especiais -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport vai compreender o tamanho da tela do site, se é PC ou mobile. -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/> <!-- Conexão com CSS -->
+        <link rel="stylesheet" type="text/css" href="css/contato.css"/>
+        <link rel="shortcut icon" href="imagens/bytegenius-logo.png" type="image/x-icon"> <!-- Code do Allan -->
+        <script src="javascript/utils.js"></script>
+        <script src="//code.jivosite.com/widget/OwTEXVzHeA" async></script> <!-- Jivochat -->
+        <title>ByteGenius - Contato</title>
+    </head>
+    <body> <!-- Conteudo do site -->
+        
+        
+        
+        <!-- CABEÇALHO DO SITE -->
+        <header>
+            <!-- Logotipo -->
+            <div class="logo">
+                <a href="index.html" class="bytelink"><img src="imagens/bytegenius-logo.png" alt="Logotipo ByteGenius">ByteGenius</a>
+            </div>
+            
+            <!-- Barra de Navegação -->
+            <nav class="navbar" id="navbar">
+                
+                <!-- Menu responsivo - Allan -->
+                <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+                    &#9776;
+                </a>
+                
+                <!-- Botões do Menu -->
+                <ul class="navbar-links" id="navbar-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li class="dropdown">
+                        <a href="#desenvolvimentos">Desenvolvimentos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="aplicativos.html">Aplicativos</a></li>
+                            <li><a href="jogos.html">Jogos</a></li>
+                            <li><a href="websites.html">Websites</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+        
+        
+        <!-- Adicione o menu lateral -->
+    <div class="sidenav" id="sidenav">
+        <a href="javascript:void(0);" class="closebtn" onclick="closeNav()">&times;</a> <!-- Ícone de fechar -->
+        <a href="index.html">Home</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="aplicativos.html">Aplicativos</a>
+        <a href="jogos.html">Jogos</a>
+        <a href="websites.html">Websites</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contatos.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+    </div>
+        
+        
+        
+        
+        
+        <div class="container">
+            <div class="location-container">
+                <h2>Localização</h2>
+                <p><b>Endereço:</b> Rua Dr. Alfredo de Castro, 999</p>
+                <p><b>Cidade:</b> Barra Funda</p>
+                <p><b>Estado:</b> São Paulo</p>
+                <p><b>CEP:</b> 01155-060</p>
+                <p><b>Telefone:</b> (11) 9 6392-5250</p>
+            </div>
+            <div class="form-container">
+            <form method="post" action="https://formsubmit.co/kaiquesc2013@uni9.edu.br">
+                <h2>Formulário de Contato</h2>
+                <input type="email" id="email" name="email" placeholder="Seu email (obrigatório)" required>
+                <input type="text" id="name" name="message" placeholder="Envie sua mensagem (obrigatório)" required>
+                <input type="hidden" name="_next" value="https://contatos.html">
+                
+                <button type="submit">Enviar</button>
+            </form>
+            </div>
+        </div>
+        
+        
+        
+        <!-- RODAPÉ DO SITE -->
+        
+        <footer>
+            
+            <!-- Wave Rodapé -->
+            <div class="container-wave-footer">
+                <svg class="wave-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L26.7,202.7C53.3,213,107,235,160,234.7C213.3,235,267,213,320,218.7C373.3,224,427,256,480,240C533.3,224,587,160,640,165.3C693.3,171,747,245,800,277.3C853.3,309,907,299,960,298.7C1013.3,299,1067,309,1120,277.3C1173.3,245,1227,171,1280,154.7C1333.3,139,1387,181,1413,202.7L1440,224L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+            </div>
+            
+            
+            <div class="footer-content">
+                
+                <!-- Sobre nós -->
+                <div class="footer-section">
+                    <h3>Sobre Nós</h3>
+                    <p>ByteGenius é uma empresa de tecnologia da informação especializada em desenvolvimento de websites, softwares e jogos eletrônicos, buscando sempre a melhor solução para nossos clientes.</p>
+                    
+                </div>
+                
+                <!-- Links -->
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="clientes.html">Clientes</a></li>
+                        
+                        <li><a href="#">Desenvolvimentos</a></li>
+                        
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contatos.html">Contato</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contato -->
+                <div class="footer-section">
+                    <h3>Contate-nos</h3>
+                    <p>Email: allan.victorpf@uni9.edu.br</p>
+                    <p>Telefone: (11) 9 6392-5250</p>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 ByteGenius. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+        
+    </body>
+</html>

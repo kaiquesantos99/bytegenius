@@ -1,0 +1,93 @@
+/* SOBRE */
+
+
+#info-display { /* Div Equipe ByteGenius */
+    padding: 10px 0 110px 0;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: #111129;
+    height: 100px;
+    font-family: FonteLogo;
+    background-color: #00A7E2;
+}
+
+/* ========= C O N T A I N E R   C I R C L E ========= */
+.circle-container { /* Container dos circulos das fotos */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-top: 0px;
+    background-color: #00A7E2;
+    
+}
+
+.circle { /* Circulos com fotos */
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: solid 1px #000;
+}
+
+/* ========= W A V E    T O P ========= */
+.container-wave-top {
+    width: 100%;
+    min-height: 40vh; /* 100vh faz a div cobrir toda a tela */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00A7E2;
+}
+
+.wave-top {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* ========= F I M    C O N T A I N E R    C I R C L E ========= */
+
+
+
+
+/* ========= S E C T I O N ========= */
+.section-container { /* Section única */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+    font-size: 15pt;
+    padding-top: 50px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    position: relative;
+    top: -1px;
+}
+
+.left-content { /* Conteúdo da esquerda */
+    flex: 2;
+    margin-right: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px 30px;
+    height: 500px;
+}
+
+.right-content { /* Conteúdo da direita */
+    flex: 1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 30px;
+    padding: 20px 30px;
+}
+
+.section-container h1, h2, p { /* Titulos, subtitulos e parágrafos da section */
+    text-align: left;
+    font-family: Tahoma;
+}
+/* ========= F I M   S E C T I O N ========= */
+
+

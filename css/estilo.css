@@ -1,0 +1,258 @@
+/* == == == == C O N F I G   P A D R Ã O == == == == */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: fonteLogo;
+    src: url(../fonts/Takota.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: column;
+    background-color: #fff;
+}
+
+/* == == == == C A B E Ç A L H O == == == == */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111129;
+    color: white;
+    padding: 1rem 2rem; /* Responsivo */
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #fff;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.bytelink {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    letter-spacing: 4px; /* espaçamento entre as letras */
+    color: #fff;
+    font-family: fonteLogo;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 4%;
+    padding: 0px 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+nav ul li .dropdown-content li {
+    margin: 0;
+}
+
+nav ul li .dropdown-content li a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: #f1f1f1;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+
+/* == == == == M E N U    R E S P O N S I V O == == == == */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 0.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.toggle-button {
+    display: none;
+    font-size: 1.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar ul {
+        display: none;
+    }
+    .toggle-button {
+        display: block;
+    }
+    
+}
+
+
+/* == == == == D R O P    M E N U == == == == */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111129;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #00A7E2;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+
+
+/* == == == == R O D A P É == == == == */
+
+.container-wave-footer { /* Container da Onda do Rodapé */
+    min-height: 40vh; /* 100vh faz a div cobrir toda a tela */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wave-footer { /* Onda do Rodapé */
+    position: absolute;
+    top: -16px;
+    left: 0;
+}
+
+
+footer { /* Rodapé */
+    background: #00A7E2;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 0;
+}
+
+.footer-content { /* Conteúdo footer */
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.footer-section { /* 3 Divs do conteúdo footer */
+    max-width: 300px;
+}
+
+.footer-section h3 { /* Subtitulos h3 das 3 divs */
+    margin-top: 0;
+}
+
+.footer-section ul { /* Lista não ordenada das 3 divs */
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li { /* Itens da lista não ordenada das 3 divs */
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a { /* Links das listas não ordenadas das 3 divs */
+    color: white;
+    text-decoration: none;
+}
+
+.footer-bottom { /* Rodapé copyright */
+    background: #000;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+.footer-bottom p { /* Parágrafo do rodapé copyright */
+    margin: 0;
+    text-align: center;
+}
+

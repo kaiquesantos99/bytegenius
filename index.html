@@ -1,0 +1,166 @@
+<!DOCTYPE html> <!-- Dizer pro navegador que esse arquivo é um documento html -->
+<html lang="pt-br">
+    
+    <head> <!-- Configurações do site -->
+        <meta charset="UTF-8"/> <!-- Reconhecer caracteres especiais -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- viewport vai compreender o tamanho da tela do site, se é PC ou mobile. -->
+        <link rel="stylesheet" type="text/css" href="css/pagina-inicial.css"/> <!-- Conexão com CSS -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <link rel="shortcut icon" href="imagens/bytegenius-logo.png" type="image/x-icon"> <!-- Code do Allan -->
+        <script src="javascript/utils.js"></script>
+        <script src="//code.jivosite.com/widget/OwTEXVzHeA" async></script> <!-- Jivochat -->
+        <title>ByteGenius</title>
+    </head>
+    <body> <!-- Conteudo do site -->
+        
+        <!-- LINK DA INTRODUÇÃO: https://drive.google.com/drive/folders/1h5ZmtqkabHogxrG8TtpmbZEc1jlP0HLc?usp=sharing -->
+        <!-- CABEÇALHO DO SITE -->
+        <header>
+            <!-- Logotipo -->
+            <div class="logo">
+                <a href="index.html" class="bytelink"><img src="imagens/bytegenius-logo.png" alt="Logotipo ByteGenius">ByteGenius</a>
+            </div>
+            
+            <!-- Barra de Navegação -->
+            <nav class="navbar" id="navbar">
+                
+                <!-- Menu responsivo - Allan -->
+                <a href="javascript:void(0);" class="toggle-button" onclick="toggleMenu()">
+                    &#9776;
+                </a>
+                
+                <!-- Botões do Menu -->
+                <ul class="navbar-links" id="navbar-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="clientes.html">Clientes</a></li>
+                    <li class="dropdown">
+                        <a href="#desenvolvimentos">Desenvolvimentos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="aplicativos.html">Aplicativos</a></li>
+                            <li><a href="jogos.html">Jogos</a></li>
+                            <li><a href="websites.html">Websites</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="contatos.html">Contato</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+                
+            </nav>
+        </header>
+        
+        
+        
+        <!-- Adicione o menu lateral -->
+    <div class="sidenav" id="sidenav">
+        <a href="javascript:void(0);" class="closebtn" onclick="closeNav()">&times;</a> <!-- Ícone de fechar -->
+        <a href="index.html">Home</a>
+        <a href="clientes.html">Clientes</a>
+        <a href="aplicativos.html">Aplicativos</a>
+        <a href="jogos.html">Jogos</a>
+        <a href="websites.html">Websites</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="contatos.html">Contato</a>
+        <a href="sobre.html">Sobre</a>
+    </div>
+        
+        
+        
+        
+            <section> <!-- conteúdo do site -->
+                <div class="section-container">
+                    <div class="section-top">
+                        <h2>CONHEÇA A BYTEGENIUS</h2> <!-- H1 - Conjunto de titulos -->
+
+                        <h1>Desenvolvemos soluções para dar vida aos seus projetos.</h1>
+
+                        <p>ByteGenius é uma empresa de tecnologia da informação especializada em desenvolvimento de websites, softwares e até mesmo jogos eletrônicos, tudo variando de acordo com a necessidade de nossos clientes, dando total suporte e atendimento para buscar a solução que melhor se encaixa com o nosso consumidor.</p>
+
+                        <p>Empresa fundada em 2024 na cidade de São Paulo, atualmente liderada por Kaique Dos Santos Costa, a ByteGenius presta serviço para grandes empresas nos mais variados ramos de atividades em todo o Brasil.</p>
+                    </div>
+
+
+
+                <!-- 3 Divs centralizadas -->
+                <div class="elementor-row">
+                    <div class="elementor-widget-container"><div class="circle">01</div>
+                        <h2>MISSÃO</h2>
+                        <p>Criar experiências únicas, positivas e memoráveis por meio de aplicativos, sites e jogos desenvolvidos por uma equipe ampla de profissionais da área de TI, com a maior eficácia, agilidade e excelência do mercado, contribuindo para uma sociedade mais realizada, engajada e feliz.</p>
+                    </div>
+                    <div class="elementor-widget-container"><div class="circle">02</div>
+                        <h2>VISÃO</h2>
+                        <p>Nossa visão é de consolidar-se no mercado como uma grande empresa de tecnologia com foco em desenvolvimento de sistemas, buscando excelência e inovação, na criação de sites e desenvolvimento de aplicativos, serviços e soluções web e mobile, contribuindo de certa forma para o crescimento deste mercado tão importante para o país.</p>
+                    </div>
+                    <div class="elementor-widget-container"><div class="circle">03</div>
+                        <h2>VALORES</h2>
+                        <p>Diversidade, inclusão, paixão, integridade, qualidade, inovação, sinceridade, respeito, cordialidade, ética e transparência.</p>
+                    </div>
+                </div>
+                
+                </div>
+                
+                <div class="container-wave-section">
+                    <svg class="wave-section" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L26.7,202.7C53.3,213,107,235,160,234.7C213.3,235,267,213,320,218.7C373.3,224,427,256,480,240C533.3,224,587,160,640,165.3C693.3,171,747,245,800,277.3C853.3,309,907,299,960,298.7C1013.3,299,1067,309,1120,277.3C1173.3,245,1227,171,1280,154.7C1333.3,139,1387,181,1413,202.7L1440,224L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+                </div>
+            </section>
+        
+        
+        
+        
+        <section class="section-ceo">
+            <img src="imagens/equipe/equipe-circulos/kaique.png">
+            <h2>KAIQUE SANTOS</h2>
+            <p>Chief Executive Officer</p>
+            <p>"Não espere o futuro mudar tua vida, porque o futuro será a consequência do presente."</p>
+        </section>
+        
+        
+        
+        
+        <!-- RODAPÉ DO SITE -->
+        
+        <footer>
+            
+            <!-- Wave Rodapé -->
+            <div class="container-wave-footer">
+                <svg class="wave-footer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L26.7,202.7C53.3,213,107,235,160,234.7C213.3,235,267,213,320,218.7C373.3,224,427,256,480,240C533.3,224,587,160,640,165.3C693.3,171,747,245,800,277.3C853.3,309,907,299,960,298.7C1013.3,299,1067,309,1120,277.3C1173.3,245,1227,171,1280,154.7C1333.3,139,1387,181,1413,202.7L1440,224L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+            </div>
+            
+            
+            <div class="footer-content">
+                
+                <!-- Sobre nós -->
+                <div class="footer-section">
+                    <h3>Sobre Nós</h3>
+                    <p>ByteGenius é uma empresa de tecnologia da informação especializada em desenvolvimento de websites, softwares e jogos eletrônicos, buscando sempre a melhor solução para nossos clientes.</p>
+                    
+                </div>
+                
+                <!-- Links -->
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="clientes.html">Clientes</a></li>
+                        <li><a href="#">Desenvolvimentos</a></li>
+                        <li><a href="servicos.html">Serviços</a></li>
+                        <li><a href="contatos.html">Contato</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contato -->
+                <div class="footer-section">
+                    <h3>Contate-nos</h3>
+                    <p>Email: allan.victorpf@uni9.edu.br</p>
+                    <p>Telefone: (11) 9 6392-5250</p>
+                </div>
+            </div>
+            
+            <!-- Copyright -->
+            <div class="footer-bottom">
+                <p>&copy; 2024 ByteGenius. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+</body>
+</html>
